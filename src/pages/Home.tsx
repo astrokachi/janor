@@ -71,9 +71,9 @@ function Home() {
             </div>
          </section>
 
-         <section className='pt-24 pb-72 px-40 bg-primary text-white text-center'>
-            <h2 className='text-4xl mb-6 font-bold'>Hi, my name is Aladejana.</h2>
-            <p className=' text-xl'>I'm a passionate Cloud DevOps Engineer, constantly innovating to streamline software delivery with scalable infrastructure solutions. I thrive on troubleshooting complex systems, ensuring cloud environments are secure and reliable, and automating deployments with Terraform and Ansible. Excellent communication skills are my secret weapon for sharing and receiving ideas and solutions.</p>
+         <section className='pt-24 pb-72 px-10 md:px-40 bg-primary text-white text-center'>
+            <h2 className='md:text-4xl text-2xl mb-6 font-bold'>Hi, my name is Aladejana.</h2>
+            <p className='text-base md:text-xl'>I'm a passionate Cloud DevOps Engineer, constantly innovating to streamline software delivery with scalable infrastructure solutions. I thrive on troubleshooting complex systems, ensuring cloud environments are secure and reliable, and automating deployments with Terraform and Ansible. Excellent communication skills are my secret weapon for sharing and receiving ideas and solutions.</p>
          </section>
 
          <section className='-mt-40 bg-white w-[90%] mx-auto rounded-xl p-4 shadow-md shadow-slate-300'>
@@ -105,7 +105,7 @@ function Home() {
          </section>
          <section className='mt-8 '>
             <h2 className='text-3xl text-center mb-6 bg-primary pt-24 pb-48 text-white'>Projects</h2>
-            <div className='flex justify-center flex-wrap gap-4 -mt-24'>
+            <div className='flex justify-center flex-wrap gap-4 md:-mt-24 -mt-40 p-4 md:p-0'>
                {data.map((data) =>
                   <Card title={data.title} text={data.text} link={data.link} svgs={data.svgs} />
                )}
@@ -130,7 +130,7 @@ function Home() {
          </section>
          {/* put your links inside the href of the anchor tags */}
          <footer className='bg-primary text-white py-24 max-w-[1200px] flex-column justify-center items-center'>
-            <p className='opacity-[0.8] text-2xl p-10'>Living, learning, & leveling up one day at a time.</p>
+            <p className='opacity-[0.8] text-2xl p-10 text-center'>Living, learning, & leveling up one day at a time.</p>
             <div className="social-icons">
                <p className="field">
                   {/* insert link to twitter */}
