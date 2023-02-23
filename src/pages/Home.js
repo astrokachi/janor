@@ -88,7 +88,7 @@ function Home() {
                         react_1.default.createElement("img", { className: `absolute w-6 transition-all delay-[50ms] ${isHover ? 'z-10' : '-z-10'}`, src: require('../assets/conversation-svgrepo-com (1).svg').default, alt: "" }),
                         react_1.default.createElement("img", { className: `absolute w-6 transition-all delay-[50ms] ${isHover ? '-z-10' : 'z-10'}`, src: require('../assets/conversation-svgrepo-com.svg').default, alt: "" })),
                     "Start a conversation"))),
-        react_1.default.createElement("footer", { className: 'bg-primary text-white py-24 max-w-[1200px] flex-column justify-center items-center' },
+        react_1.default.createElement("footer", { className: 'bg-primary text-white py-24  flex-column justify-center items-center' },
             react_1.default.createElement("p", { className: 'opacity-[0.8] text-2xl p-10 text-center' }, "Living, learning, & leveling up one day at a time."),
             react_1.default.createElement("div", { className: "social-icons" },
                 react_1.default.createElement("p", { className: "field" },

@@ -129,7 +129,7 @@ function Home() {
             </a>
          </section>
          {/* put your links inside the href of the anchor tags */}
-         <footer className='bg-primary text-white py-24 max-w-[1200px] flex-column justify-center items-center'>
+         <footer className='bg-primary text-white py-24  flex-column justify-center items-center'>
             <p className='opacity-[0.8] text-2xl p-10 text-center'>Living, learning, & leveling up one day at a time.</p>
             <div className="social-icons">
                <p className="field">

@@ -178,7 +178,7 @@ a.button:hover {
 	color: #6e07f3;
 }
 
-footer .social-icons a.button .icon.is-small {
+.social-icons a.button .icon.is-small {
 	height: 1.4em;
 	width: 1.4em;
 }
