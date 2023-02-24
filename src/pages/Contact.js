@@ -1,10 +1,5 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const react_1 = __importDefault(require("react"));
+import React from 'react';
 function Contact() {
-    return (react_1.default.createElement("div", null, "Contact"));
+    return (React.createElement("div", null, "Contact"));
 }
-exports.default = Contact;
+export default Contact;
