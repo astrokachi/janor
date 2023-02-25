@@ -71,8 +71,8 @@ function Home() {
          </section>
 
          <section className='pt-24 pb-72 px-10 md:px-40 bg-primary text-white text-center'>
-            <h2 className='md:text-4xl text-2xl mb-6 font-bold'>Hi, my name is Aladejana.</h2>
-            <p className='text-base md:text-xl'>I'm a passionate Cloud DevOps Engineer, constantly innovating to streamline software delivery with scalable infrastructure solutions. I thrive on troubleshooting complex systems, ensuring cloud environments are secure and reliable, and automating deployments with Terraform and Ansible. Excellent communication skills are my secret weapon for sharing and receiving ideas and solutions.</p>
+            <h2 className='md:text-4xl text-2xl mb-6 font-bold'>Hi, my name is Emmanuel.</h2>
+            <p className='text-base md:text-xl'>I'm a passionate Cloud DevOps Engineer, constantly innovating to streamline software delivery with scalable infrastructure solutions. I thrive on troubleshooting complex systems, ensuring cloud environments are secure and reliable, and automating deployments with Ansible, Docker, Kubernetes and Terraform. Excellent communication skills are my secret weapon for sharing and receiving ideas and solutions.</p>
          </section>
 
          <section className='-mt-40 bg-white w-[90%] mx-auto rounded-xl p-4 shadow-md shadow-slate-300'>
@@ -85,19 +85,21 @@ function Home() {
                </span>
                <div className='p-10'>
                   <h1 className="title is-size-4 is-spaced text-2xl">Cloud DevOps Engineer</h1>
-                  <p className='m-4'>I deploy and manage infrastructure with Terraform, configure systems with Ansible, and troubleshoot production issues on Linux and Windows. I work with cloud providers and containerization tools like Docker and Kubernetes to implement scalable solutions for web servers, load balancers, and databases.</p>
-                  <p className="list-title text-primary">Languages I speak:</p>
-                  <p>HTML, Css, Python, Javascript</p>
-                  <p className="list-title text-primary mt-4">Dev Tools:</p>
+                  <p className='m-4'>I deploy and manage infrastructure with Terraform, configure systems with Ansible, and troubleshoot production issues on Linux and Windows. I work with cloud providers and containerization tools like Docker and Kubernetes to implement scalable solutions for your Applications and Services.</p>
+                  <p className="list-title text-primary mt-4">Skills:</p>
                   <ul>
-                     <li>Terraform</li>
                      <li>Ansible</li>
-                     <li>Linux</li>
-                     <li>Windows</li>
+                     <li>BashScript</li>
+                     <li>CSS</li>
                      <li>Docker</li>
                      <li>Github</li>
+                     <li>HTML</li>
+                     <li>Javascript</li>
                      <li>Kubernetes</li>
-                     <li>BashScript</li>
+                     <li>Linux</li>
+                     <li>Python</li>
+                     <li>Terraform</li>
+                     <li>Windows</li>
                   </ul>
                </div>
             </div>
