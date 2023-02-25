@@ -115,7 +115,7 @@ function Home() {
             <h2 className='font-bold text-3xl'>Interested in my work?</h2>
             <p className='text-xl'>I'm always open to discussing Cloud DevOps work or partnership opportunities.</p>
             {/* Insert email link */}
-            <a href="mailto:">
+            <a href="mailto:dejanaemzy37@gmail.com">
                <button onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} className="border-primary mt-10  flex w-max items-center font-lato border-2 gap-3 text-primary text-xl h-11 px-5 rounded-[9999px] hover:bg-primary hover:text-white">
                   <div className='w-6 h-5  transition-all delay-100'>
                      <img className={`absolute w-6 transition-all delay-[50ms] ${isHover ? 'z-10' : '-z-10'}`} src={require('../assets/conversation-svgrepo-com (1).svg').default} alt="" />
